@@ -1,0 +1,19 @@
+operation:
+a h left                      go left
+w k up                        go up
+d l right                     go right
+s j down                      go down
+?                             help
+esc                           restart
+p                             pause
+q                             quit
+
+KIND      COLOR      EFFECT      SCORE
+tonic     white      length+1    100
+poison    red        life-1      0
+bomb      green      explode     -1000
+weird     yellow     length-1    -50
+elixir    gray       life+1      0
+wizard    blue       reset       0
+
+           "q" for quit
